@@ -91,7 +91,7 @@ function App() {
           {repoData?.total_count > 0 ? (
             repoData?.items.map((data, indx) => {
               return (
-                <div className="col-3" key={indx}>
+                <div className="col-xs-12 col-sm-3 " key={indx}>
                   <RepoCard data={data} />
                 </div>
               );
